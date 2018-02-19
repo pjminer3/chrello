@@ -1,9 +1,14 @@
 import React, { Component } from 'react';
 
+import Board from './board';
+
 class HomePage extends Component {
   render() {
     return (
-      <div> This is my home Page </div>
+      <div> 
+        <h3>This is my home Page </h3>
+        <Board />
+      </div>
     )
   }
 }
